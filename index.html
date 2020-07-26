@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Hub pages</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kadai-10.css">
+    <script src="kadai-10.js" defer></script>
 </head>
 <body>
-    <h1>Sample</h1>
-    <p>サンプルです</p>
-    <img src="img/img1.jpg" alt="">
+    <header class="global-nav">
+        <h1>Portfolio</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sec1">Top</a></li>
+                <li><a href="#sec2">Works</a></li>
+                <li><a href="#sec3">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sec1">
+            <h1>Haruka Iwakami</h1>
+            <p><br><br>Welcome to my portfolio website!<p>
+                <nav class="slider-controller">
+                    <ul>
+                      <li><a id="sc-to-left">←</a></li>
+                      <li><a id="sc-to-right">→</a></li>
+                    </ul>
+                  </nav>
+        </section>
+
+        <section id="sec2">
+            <h2>--Works--</h2>
+            <div class="works">
+                <ul>
+                    <li><img src="img/img1.jpg"></li>
+                    <li><img src="img/img2.jpg"></li>
+                    <li><img src="img/img3.jpg"></li>
+                    <li><img src="img/img4.jpg"></li>
+                </ul>
+            </div>
+            <div class="setumei">
+                <ul>
+                    <li>↑〇〇で作った作品です↑</li>
+                    <li>↑〇〇で作った作品です↑</li>
+                    <li>↑〇〇で作った作品です↑</li>
+                    <li>↑〇〇で作った作品です↑</li>
+                </ul>
+            </div>
+        </section>
+        <section id="sec3">
+            <h2>--About--</h2>
+            ↓自分について軽く紹介する↓
+        </section>
+    </main>
 </body>
 </html>
