@@ -232,27 +232,10 @@
 .introduce {
     background: linear-gradient(transparent 50%, #a8eaff 50%);
 }
-
-.social { 
-    list-style: none; 
-    display: flex;
-  }
-  
-  .social li {
-    line-height: 1;
-    padding: 0.5rem; 
-    font-size: 1.5rem; 
-  }
-  
-  .social li a { 
-    color: rgb(179, 16, 16); 
-    transition: 1s color; 
-  }
-
-  .social li a:hover {
-     color: rgb(5, 142, 255);
-  }
-
+.contact{
+    background: linear-gradient(transparent 50%, #f3e461 50%);
+    letter-spacing: 5px;
+}
 .slider-controller {
     position: absolute;
     bottom: 0;

@@ -43,3 +43,4 @@ document.getElementById('sc-to-right').addEventListener('click', nextImage);
 
 
 setInterval(nextImage, 5000);
+
