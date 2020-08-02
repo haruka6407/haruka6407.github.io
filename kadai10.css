@@ -42,12 +42,13 @@
     justify-content: space-between;
     border-bottom-width: 5px;
     border-bottom-style: solid;
-    border-bottom-color: black;
+    border-bottom-color: #314b7c;
 }
 .global-nav .menu ul {
     list-style: none;
     display: flex;
     align-items: center;
+    font-family: 'Pacifico', cursive;
 }
 .global-nav .menu ul a {
     color: var(--primary-050);
@@ -72,14 +73,12 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-}
-
-#sec1 {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 5rem;
+    font-family: 'Pacifico', cursive;
 }
 
 #sec1 h1{
@@ -97,19 +96,22 @@
 }
 
 #sec2{
-    height: 100vh;
+    background-color: rgb(234, 243, 247);
+    height: 120vh;
+    text-align: center;
 }
 
 #sec2 h2{
-    
+    font-family: 'Pacifico', cursive;
     text-align: center;
     padding-top: 6rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5px;
     justify-content: center;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 #sec2 .works ul{
+    padding-top: 3rem;
     display: flex;
     justify-content: space-around;
 }
@@ -119,30 +121,137 @@
     list-style: none;
     justify-content: space-around;
 }
-
-#sec3 {
-    height: 100vh;
-    text-align: center;
-}
-
-#sec3 h2{
-    text-align: center;
-    padding-top: 6rem;
-    display: flex;
-    justify-content: center;
-    font-size: 3em;
-}
-
-
 .works ul li{
     list-style: none;
-    display: inline-block;
 }
-
+.Maya{
+   font-size: 35px;
+   font-family: 'Pacifico', cursive;
+}
+.Maya p{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+.Maya a{
+    font-size: 15px;
+}
+.Maya a:hover{
+    color: red;
+}
+.Art{
+    font-size: 35px;
+    padding-right: 50px;
+    font-family: 'Pacifico', cursive;
+}
+.Art p{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+.Art a{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.Art a:hover{
+    color: red;
+}
+.etc{
+    padding-right: 35px;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+}
+.etc p{
+    font-size: 20px;
+    padding-bottom: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+.etc a{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.etc a:hover{
+    color: red;
+}
 .works ul li img{
     height: 240px;
     width: 320px;
 }
+#sec3 {
+    height: 100vh;
+    background-color: rgba(226, 238, 192, 0.466);
+    z-index: -2;
+}
+
+#sec3 h2{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+
+}
+#about{
+    padding-top: 80px;
+    padding-left: 200px;
+    display: flex;
+}
+.about-icon img{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: 20px;
+}
+.about-text {
+    padding-left: 70px;
+}
+.about-text h1{
+    font-size: 50px;
+    font-weight: 40%;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+    position: relative;
+}
+.about-text h1:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15px;
+    background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+}
+
+.about-text p{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    letter-spacing: 10px;
+    line-height: 75px;
+}
+.introduce {
+    background: linear-gradient(transparent 50%, #a8eaff 50%);
+}
+
+.social { 
+    list-style: none; 
+    display: flex;
+  }
+  
+  .social li {
+    line-height: 1;
+    padding: 0.5rem; 
+    font-size: 1.5rem; 
+  }
+  
+  .social li a { 
+    color: rgb(179, 16, 16); 
+    transition: 1s color; 
+  }
+
+  .social li a:hover {
+     color: rgb(5, 142, 255);
+  }
 
 .slider-controller {
     position: absolute;
@@ -158,6 +267,51 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .circle1,
+  .circle2,
+  .circle3  { 
+   margin-top: 2000px; 
+   margin-right: 200px;
+   position: absolute; 
+   top: 0;
+   width: 25%;
+   height: 50%;
+   border-radius: 5%; 
+   z-index: -1;
+   display: flex;
+ }  
+  
+  @keyframes rotation {
+    from { 
+      trasform: rotate(0deg);
+    }
+    
+    to { 
+      transform: rotate(360deg);
+    }
+ }
+
+.circle1 {
+  padding-right: 400px;
+  opacity: 0.3; 	 
+  background: rgb(208, 127, 255); 
+  transform-origin: 50% 47%;
+  animation: rotation 3s infinite linear; 
+}
+.circle2 {
+  opacity: 0.5;
+  background: rgb(255, 247, 135);
+  transform-origin: 52% 48%;
+  animation: rotation 12s infinite linear;
+}
+.circle3 {
+  opacity: 0.4;
+  background: rgb(255, 80, 80);
+  transform-origin: 48% 52%;
+  animation: rotation 6s infinite linear;
+}  
+
 
   /*#sc-to-left,
   #sc-to-right {
